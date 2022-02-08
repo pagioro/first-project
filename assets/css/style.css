@@ -44,7 +44,7 @@ h1 > span {
 #menu li {
     float: right;
     list-style: none;
-    margin-right: 60px
+    margin-right: 40px
 }
 
 #menu a {
@@ -104,10 +104,6 @@ h1 > span {
 }
 
 /* phone Shop Services */
-
-#mobile-services {
-    height: 550px;    
-}
 
 #services {
     text-align: center;
@@ -189,7 +185,24 @@ h1 > span {
     margin: 0 auto;
 }
 
+/* About us */
 
+#about-us {
+    width: 100%;
+    color: #11324D;
+    background-color: #F7ECDE;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.about {
+    text-align: center;
+}
+
+.about > h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
 
 
 
