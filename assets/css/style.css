@@ -13,11 +13,6 @@ body {
 
 /* headings and logo */
 
-header {
-    height: 80px;
-    background-color: #FBF8F1;
-}
-
 h1 {
     font-family: 'Roboto Mono', sans-serif;
     text-transform: uppercase;
@@ -71,9 +66,6 @@ h1 > span {
     position: relative;
 }
 
-#cover-text, #cover-text h2{
-    color: #fff;
-}
 
 #girl-image {
     height: 520px;
@@ -82,18 +74,124 @@ h1 > span {
     background-size: cover;
 }
 
+#cover-text, #cover-text h2{
+    color: #fff;
+}
+
+#cover-text > h3 {
+    padding-top: 10px;
+}
+
+#cover-text {
+    font-size: 90%;
+    font-family: 'Roboto Mono', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    width: 300px;
+    height: 100px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, .6);
+
+    bottom: 30px;
+    right: 120px;
+
+    position: absolute;
+}
+
 /* phone Shop Services */
 
 #mobile-services {
-    height: 550px;  
-    background-color: #F7ECDE;  
+    height: 550px;    
 }
 
 #services {
     text-align: center;
-    padding: 20px 0;
-    font-size: 250%;
+    padding: 25px 0;
+    font-size: 220%;
+    text-transform: uppercase;
+    color: #11324D;
 }
+
+#flex-position {
+    display: flex;    
+    width: 100%;     
+    flex-wrap: wrap;     
+    justify-content: center;  
+    background-color: blue;  
+}
+
+#right {
+    align-items: center;
+    width: 33%;
+    background-color: yellow;
+}
+
+.right-image {
+    background: url(../images/iphone-open.jpg) no-repeat center center;
+    background-size: cover;
+    width: 65%;
+    height: 300px;
+    border-radius: 5px;           
+}
+
+.right-text {
+    width: 65%    
+}
+
+.right-image, .right-text {
+    margin: 0 auto;
+}
+
+#left {
+    width: 33%;
+    background-color: pink;
+}
+
+.left-image {
+    background: url(../images/laptop.jpg) no-repeat center center;
+    background-size: cover;
+    width: 65%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.left-text {
+    width: 65%
+}
+
+.left-image, .left-text {
+    margin: 0 auto;
+}
+
+#center {
+    width: 33%;
+    background-color: green;
+}
+
+.center-image {
+    background: url(../images/phone-open.jpg) no-repeat center center;
+    background-size: cover;
+    width: 65%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.center-text {
+    width: 65%
+}
+
+.center-image, .center-text {
+    margin: 0 auto;
+}
+
+
+
+
 
 /* font-family: 'Lora', serif;
 font-family: 'Roboto Mono', monospace; */
