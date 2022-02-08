@@ -55,13 +55,45 @@ h1 > span {
 #menu a {
     text-decoration: none;
     color: #11324D;
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
 }
 
 #menu a:hover {    
     font-size: 110%;
 }
 
+/* main image */
+
+#main-image {
+    height: 520px;
+    width: 100%;
+    overflow: hidden; /* didn't understand */
+    position: relative;
+}
+
+#cover-text, #cover-text h2{
+    color: #fff;
+}
+
+#girl-image {
+    height: 520px;
+    width: 100%;
+    background: url(../images/girl-phone.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* phone Shop Services */
+
+#mobile-services {
+    height: 550px;  
+    background-color: #F7ECDE;  
+}
+
+#services {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 250%;
+}
 
 /* font-family: 'Lora', serif;
 font-family: 'Roboto Mono', monospace; */
