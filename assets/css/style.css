@@ -109,6 +109,7 @@ h1 > span {
 #container > #services {
     text-transform: uppercase;
     text-align: center;
+    margin: 50px 50px;
 }
 
 #flex-container-service {
@@ -119,49 +120,44 @@ h1 > span {
 
 .box {
     width: 450px;
+    margin: 0 auto;
+    background-color: greenyellow;
+}
+
+.flex-text {
+    width: 80%; 
+    margin: 0 auto;   
+}
+
+.flex-text > h2 {
+    margin: 10px 0 10px 0;  
+}
+
+.flex-text > p {
+    margin-bottom: 25px;  
+}
+
+.flex-image-all {
+    width: 80%;
+    height: 300px;
+    border-radius: 5px;
+    margin: 0 auto;
 }
 
 .flex-image1 {
-    width: 80%;
-    height: 300px;
-    background: url(../images/iphone-open.jpg) no-repeat center center;
+    background-image: url(../images/iphone-open.jpg);
     background-size: cover;
-    border-radius: 5px;
 }
 
-.flex-text {
-    background-color: greenyellow;    
+.flex-image2 {    
+    background-image: url(../images/laptop.jpg);  
+    background-size: cover;  
 }
 
-.flex-image2 {
-    width: 80%;
-    height: 300px;
-    background: url(../images/laptop.jpg) no-repeat center center;
-    background-size: cover;
-    border-radius: 5px;
+.flex-image3 {    
+    background-image: url(../images/phone-open.jpg);
+    background-size: cover;    
 }
-
-.flex-text {
-    background-color: red;    
-}
-
-.flex-image3 {
-    width: 80%;
-    height: 300px;
-    background: url(../images/phone-open.jpg) no-repeat center center;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.flex-text {
-    background-color: blue;    
-}
-
-
-
-
-
-
 
 /* About us */
 
