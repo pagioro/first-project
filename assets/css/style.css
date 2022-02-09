@@ -285,6 +285,10 @@ footer {
     color: #3a3a3a;
 }
 
+li > a {    
+    transition-duration: 0.4s;
+}
+
 li > a:hover {    
     font-size: 120%;
 }
