@@ -121,7 +121,6 @@ h1 > span {
 .box {
     width: 450px;
     margin: 0 auto;
-    background-color: greenyellow;
 }
 
 .flex-text {
@@ -134,7 +133,7 @@ h1 > span {
 }
 
 .flex-text > p {
-    margin-bottom: 25px;  
+    margin-bottom: 50px;  
 }
 
 .flex-image-all {
@@ -164,8 +163,8 @@ h1 > span {
 #about-us {
     width: 100%;
     color: #11324D;
-    background-color: #F7ECDE;
-    padding: 30px;
+    background-color: #FDFAF6;
+    padding: 60px;
     box-sizing: border-box;
 }
 
@@ -235,43 +234,59 @@ h1 > span {
 
 /* Contact */
 
-#contact {
+#contact-times {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FDFAF6; 
+    color: #11324D;   
+}
+
+.contact-text {
     text-align: center;
-    padding: 100px 100px;
-    background-color: green;
+    padding-top: 50px;
+    background-color: #FDFAF6;
+    text-transform: uppercase;
 }
 
-.contact-boxes-container {
-    width: 100%;
-    margin: 0 auto;    
-}
-
-.contact-box-left {
-    width: 250px;
-    margin-top: -20px;
-	float: left;
-}
-
-.contact-box-right {
-    width: 250px;
-    text-align: right;
-    margin-top: -20px;
-	float: right;
-}
-
-.contact-box-center {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-    text-align: center;
+.box-contact {
+    padding: 80px;
 }
 
 th, td {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black; 
 }
 
-ul {
-	padding: 0;
+/* Map */
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+li > a:hover {    
+    font-size: 120%;
 }
 
 
