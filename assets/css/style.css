@@ -62,7 +62,7 @@ h1 > span {
 #main-image {
     height: 520px;
     width: 100%;
-    overflow: hidden; /* didn't understand */
+    overflow: hidden;
     position: relative;
 }
 
@@ -104,84 +104,64 @@ h1 > span {
     position: absolute;
 }
 
-/* phone Shop Services */
+/* Phone Shop Services */
 
-#services {
-    text-align: center;
-    padding: 25px 0;
-    font-size: 220%;
+#container > #services {
     text-transform: uppercase;
-    color: #11324D;
+    text-align: center;
 }
 
-#flex-position {
-    display: flex;    
-    width: 100%;     
-    flex-wrap: wrap;     
-    justify-content: center;      
-    margin-bottom: 20px;
+#flex-container-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#right {
-    align-items: center;
-    width: 33%    
+.box {
+    width: 450px;
 }
 
-.right-image {
+.flex-image1 {
+    width: 80%;
+    height: 300px;
     background: url(../images/iphone-open.jpg) no-repeat center center;
     background-size: cover;
-    width: 65%;
+    border-radius: 5px;
+}
+
+.flex-text {
+    background-color: greenyellow;    
+}
+
+.flex-image2 {
+    width: 80%;
     height: 300px;
-    border-radius: 5px;           
-}
-
-.right-text {
-    width: 65%    
-}
-
-.right-image, .right-text {
-    margin: 0 auto;
-}
-
-#left {
-    width: 33%;    
-}
-
-.left-image {
     background: url(../images/laptop.jpg) no-repeat center center;
     background-size: cover;
-    width: 65%;
-    height: 300px;
     border-radius: 5px;
 }
 
-.left-text {
-    width: 65%
+.flex-text {
+    background-color: red;    
 }
 
-.left-image, .left-text {
-    margin: 0 auto;
-}
-
-#center {
-    width: 33%;    
-}
-
-.center-image {
+.flex-image3 {
+    width: 80%;
+    height: 300px;
     background: url(../images/phone-open.jpg) no-repeat center center;
     background-size: cover;
-    width: 65%;
-    height: 300px;
     border-radius: 5px;
 }
 
-.center-text {
-    width: 65%
+.flex-text {
+    background-color: blue;    
 }
 
-.center-image, .center-text {
-    margin: 0 auto;
-}
+
+
+
+
+
 
 /* About us */
 
@@ -255,6 +235,47 @@ h1 > span {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/* Contact */
+
+#contact {
+    text-align: center;
+    padding: 100px 100px;
+    background-color: green;
+}
+
+.contact-boxes-container {
+    width: 100%;
+    margin: 0 auto;    
+}
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -20px;
+	float: left;
+}
+
+.contact-box-right {
+    width: 250px;
+    text-align: right;
+    margin-top: -20px;
+	float: right;
+}
+
+.contact-box-center {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+th, td {
+    border-bottom: 1px solid black;
+}
+
+ul {
+	padding: 0;
 }
 
 
