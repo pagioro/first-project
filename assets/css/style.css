@@ -214,7 +214,7 @@ h1 > span {
 }
 
 .text-input:hover {
-    border-color: #f16c6b
+    border-color: yellowgreen;
 }
 
 .join-button {
@@ -270,6 +270,11 @@ footer {
     height: 150px;
 }
 
+ul > h3 {
+    font-size: 80%;
+    padding-top: 2%;
+}
+
 .social-networks {
     text-align: center;
 }
@@ -279,10 +284,10 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+    font-size: 140%;
+    
+    padding: 2%;
+    color: #000;
 }
 
 li > a {    
@@ -291,6 +296,40 @@ li > a {
 
 li > a:hover {    
     font-size: 120%;
+}
+
+/* For medium screens size from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 100%;
+    }
+    
+    .contact-text {        
+        padding-top: 30px;       
+    }
+    
+    .box-contact {
+        padding: 40px;
+    } 
+}
+
+/* For medium screens size from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+    #logo {
+        font-size: 200%;
+        margin-left: 25px;
+    } 
+    
+    #menu {
+        column-count: 3;
+    }
 }
 
 
@@ -304,5 +343,4 @@ font-family: 'Roboto Mono', monospace; */
 section 1 = #F7ECDE
 section 2 = #E9DAC1
 section 3 = #54BAB9
-
 */
