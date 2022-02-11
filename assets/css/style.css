@@ -181,11 +181,11 @@ h1 > span {
 /* Form */
 
 #form {
-    background-image: url(../images/signup-form.jpg);
+    background-image: url(../images/signup-form.jpg);    
     background-size: cover;    
     width: 100%;
     height: 550px;
-    position: relative
+    position: relative;    
 }
 
 .signup-form {
@@ -227,6 +227,7 @@ h1 > span {
     background-color: #f16c6b;
     color: #fafafa;
     display: block;
+    font-weight: 400;
 }
 .join-button:hover {
     background-color: #fafafa;
@@ -315,8 +316,11 @@ li > a:hover {
     #nav-list {
         font-size: 110%;
         margin-left: 25px;        
-    }       
+    }   
     
+    .box-contact {
+        padding: 40px;
+    }    
 }
 
 
@@ -327,7 +331,6 @@ li > a:hover {
     #navbar {
         flex-direction: column;
     }
-
 
     #logo {
         font-size: 180%;
