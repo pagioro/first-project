@@ -35,6 +35,7 @@ h1 > span {
 #menu {
     font-size: 130%;
     letter-spacing: 3px;
+    width: 100%;
 }
 
 #menu, #logo {
@@ -284,8 +285,7 @@ ul > h3 {
 }
 
 .social-networks i {
-    font-size: 140%;
-    
+    font-size: 140%;    
     padding: 2%;
     color: #000;
 }
@@ -317,6 +317,10 @@ li > a:hover {
     .box-contact {
         padding: 40px;
     } 
+
+    #cover-text {
+        float: left;
+    }
 }
 
 /* For medium screens size from 800px wide and down */
@@ -325,11 +329,8 @@ li > a:hover {
     #logo {
         font-size: 200%;
         margin-left: 25px;
-    } 
+    }     
     
-    #menu {
-        column-count: 3;
-    }
 }
 
 /* For medium screens size from 400px wide and down */
@@ -339,9 +340,7 @@ li > a:hover {
         font-size: 100%;        
     } 
     
-    #menu {
-        column-count: 3;
-    }
+    
 }
 
 
