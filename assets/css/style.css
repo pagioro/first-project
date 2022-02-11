@@ -58,47 +58,7 @@ h1 > span {
 #nav-list li {
     display: inline-block;
     margin-right: 25px;
-}
-
-
-
-/*
-
-#logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 40px;
-}
-
-/* navigation links */
-
-/*
-
-#menu {
-    font-size: 130%;
-    letter-spacing: 3px;
-    width: 100%;
-}
-
-#menu, #logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style: none;
-    margin-right: 40px
-}
-
-#menu a {
-    text-decoration: none;
-    color: #11324D;
-    transition-duration: 0.2s;
-}
-
-#menu a:hover {    
-    font-size: 110%;
-}*/
+}    
 
 /* main image */
 
@@ -137,14 +97,12 @@ h1 > span {
 
     padding-top: 40px;
     padding-left: 10px;
-    text-align: center;
 
     background-color: rgba(60, 60, 60, 0.6);
 
-    bottom: 30px;
-    right: 120px;
-
     position: absolute;
+    bottom: 30px;
+    right: 100px;    
 }
 
 /* Phone Shop Services */
@@ -342,8 +300,6 @@ li > a:hover {
 
 /* For medium screens size from 950px wide and down */
 
-
-
 @media screen and (max-width: 950px) {
     
     #navbar {
@@ -359,7 +315,7 @@ li > a:hover {
     #nav-list {
         font-size: 110%;
         margin-left: 25px;        
-    }  
+    }       
     
 }
 
@@ -376,7 +332,13 @@ li > a:hover {
     #logo {
         font-size: 180%;
         margin-left: 25px;
-    }     
+    } 
+    
+    #cover-text {
+        position: absolute;
+        bottom: 30px;
+        left: 80px;
+    }   
     
 }
 
@@ -384,16 +346,18 @@ li > a:hover {
 /* For medium screens size from 480px wide and down */
 
 @media screen and (max-width: 480px) {
+    
 
     #logo {
         font-size: 160%;
         margin-left: 20px;
     }    
 
-    #nav-list {
-        font-size: 80%;
-    }    
-    
+    #cover-text {
+        position: absolute;
+        bottom: 30px;
+        left: 100px;
+    }        
 }
 
 
