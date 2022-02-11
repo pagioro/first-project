@@ -26,11 +26,12 @@ h1 > span {
 
 #logo {
     font-size: 250%;
+    margin-left: 50px;    
 }
 
 #navbar {    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     line-height: 75px;
 }
 
@@ -39,19 +40,25 @@ h1 > span {
     text-decoration: none;
 }
 
-#navbar a:hover {
+#nav-list a {
+    transition-duration: 0.2s;
+}
+
+#nav-list a:hover {
     font-size: 110%;
-    transition-duration: 0.2s;    
+    transition-duration: 0.2s;
 }
 
 #nav-list {
-    list-style-type: none;
+    list-style-type: none; 
+    margin-right: 50px;
+    font-size: 130%;
 }
 
 #nav-list li {
     display: inline-block;
+    margin-right: 25px;
 }
-
 
 
 
@@ -335,46 +342,57 @@ li > a:hover {
 
 /* For medium screens size from 950px wide and down */
 
-@media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 15px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-size: 100%;
-    }
-    
-    .contact-text {        
-        padding-top: 30px;       
-    }
-    
-    .box-contact {
-        padding: 40px;
-    } 
 
-    #cover-text {
-        float: left;
+
+@media screen and (max-width: 950px) {
+    
+    #navbar {
+        flex-direction: column;
     }
+
+
+    #logo {
+        font-size: 200%;
+        margin-left: 25px;
+    }   
+    
+    #nav-list {
+        font-size: 110%;
+        margin-left: 25px;        
+    }  
+    
 }
+
 
 /* For medium screens size from 800px wide and down */
 
 @media screen and (max-width: 800px) {
+
+    #navbar {
+        flex-direction: column;
+    }
+
+
     #logo {
-        font-size: 200%;
+        font-size: 180%;
         margin-left: 25px;
     }     
     
 }
 
-/* For medium screens size from 400px wide and down */
 
-@media screen and (max-width: 400px) {
+/* For medium screens size from 480px wide and down */
+
+@media screen and (max-width: 480px) {
+
     #logo {
-        font-size: 100%;        
-    } 
-    
+        font-size: 160%;
+        margin-left: 20px;
+    }    
+
+    #nav-list {
+        font-size: 80%;
+    }    
     
 }
 
