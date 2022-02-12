@@ -361,7 +361,10 @@ li > a:hover {
 /* For medium screens size from 480px wide and down */
 
 @media screen and (max-width: 480px) {
-    
+
+    #nav-list {        
+        margin-right: 0;        
+    }   
 
     #logo {
         font-size: 160%;
