@@ -157,7 +157,7 @@ h1 > span {
 }
 
 .flex-image3 {    
-    background-image: url(../images/phone-open.webp);
+    background-image: url(../images/apple-products.webp);
     background-size: cover;    
 }
 
@@ -340,6 +340,10 @@ li > a:hover {
         flex-direction: column;
     }
 
+    #nav-list {        
+        margin-right: 0;        
+    }  
+
     #logo {
         font-size: 180%;
         margin-left: 25px;
@@ -361,11 +365,7 @@ li > a:hover {
 /* For medium screens size from 480px wide and down */
 
 @media screen and (max-width: 480px) {
-
-    #nav-list {        
-        margin-right: 0;        
-    }   
-
+    
     #logo {
         font-size: 160%;
         margin-left: 20px;
