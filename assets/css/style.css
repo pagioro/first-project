@@ -353,7 +353,7 @@ li > a:hover {
     
     #contact-times {
         justify-content: unset;  
-        margin-left: 10%;  
+        padding-left: 10%;  
     }
 }
 
@@ -371,7 +371,7 @@ li > a:hover {
     #cover-text {
         position: absolute;
         bottom: 30px;
-        left: 100px;
+        left: 0;
     }        
 }
 
