@@ -29,6 +29,8 @@ h1 > span {
     margin-left: 50px;    
 }
 
+/* Navbar Styles*/
+
 #navbar {    
     display: flex;
     justify-content: space-between;
@@ -98,7 +100,7 @@ h1 > span {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.9);
 
     position: absolute;
     bottom: 30px;
@@ -191,7 +193,7 @@ h1 > span {
 .signup-form {
     margin: 80px 10% 0 0;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.9);
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -215,7 +217,7 @@ h1 > span {
 }
 
 .text-input:hover {
-    border-color: yellowgreen;
+    border-color: #9ACD32;
 }
 
 .join-button {
@@ -231,7 +233,7 @@ h1 > span {
 }
 .join-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #800020;
 }
 
 /* Contact */
@@ -272,6 +274,11 @@ footer {
     height: 150px;
 }
 
+footer > h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
 ul > h3 {
     font-size: 80%;
     padding-top: 2%;
@@ -291,12 +298,13 @@ ul > h3 {
     color: #000;
 }
 
-li > a {    
+li > a {
+    font-size: 200%;    
     transition-duration: 0.4s;
 }
 
 li > a:hover {    
-    font-size: 120%;
+    font-size: 220%;
 }
 
 /* For medium screens size from 950px wide and down */
@@ -341,8 +349,12 @@ li > a:hover {
         position: absolute;
         bottom: 30px;
         left: 80px;
-    }   
+    } 
     
+    #contact-times {
+        justify-content: unset;  
+        margin-left: 10%;  
+    }
 }
 
 
@@ -361,6 +373,15 @@ li > a:hover {
         bottom: 30px;
         left: 100px;
     }        
+}
+
+/* For medium screens size from 320px wide and down */
+
+@media screen and (max-width: 320px) {    
+
+    #logo {
+        font-size: 120%;        
+    }           
 }
 
 
