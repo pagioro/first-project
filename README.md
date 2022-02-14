@@ -75,13 +75,21 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
     # Unfixed Bugs
 
-    ## Navigation bar
+    ### Navigation bar
 
     - The navigation bar for mobile devices is not perfect. In the future, after acquiring better abilities, I will make these changes.
 
     # Fixed Bugs
 
     - With the use of float, the site was broken and, after using flexbox, the website got better.
+
+    - __Validator Testing__
+
+        - HTML
+            - 
+        - CSS
+            - 
+        - Di
 
 
 
