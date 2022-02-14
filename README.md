@@ -25,3 +25,11 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
   - This section introduces the user to the phone shop.
 
 ![landing page](https://user-images.githubusercontent.com/60697190/153881622-f1dd8d4e-71f0-474f-8ff0-184678cd28a7.png)
+
+- __Repair Section__
+
+  - In the repair section, the user will be able to see all the services that the store has.
+
+  - The user with this information may decide to contact us.
+
+  ![repair section](https://user-images.githubusercontent.com/60697190/153884948-99b6bf20-71bb-4571-b3c0-80b1e06bdf1a.png)
