@@ -46,15 +46,15 @@ h1 > span {
     transition-duration: 0.2s;
 }
 
-#nav-list a:hover {
-    font-size: 110%;
-    transition-duration: 0.2s;
-}
-
 #nav-list {
     list-style-type: none; 
     margin-right: 50px;
-    font-size: 130%;
+    font-size: 65%;
+}
+
+#nav-list li:hover {
+    font-size: 100%;
+    transition-duration: 0.2s;
 }
 
 #nav-list li {
@@ -263,6 +263,14 @@ th, td {
 
 /* Map */
 
+#map > h3 {
+    width: 100%;
+    color: #11324D;
+    text-align: center;
+    background-color: #FDFAF6;
+    padding-bottom: 5px;
+}
+
 iframe {
     width: 100%;
     height: 300px;
@@ -315,14 +323,12 @@ li > a:hover {
         flex-direction: column;
     }
 
-
     #logo {
         font-size: 200%;
         margin-left: 25px;
     }   
     
-    #nav-list {
-        font-size: 110%;
+    #nav-list {        
         margin-left: 25px;        
     }   
     
