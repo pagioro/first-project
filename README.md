@@ -85,20 +85,34 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
     ## Validator Testing
 
-       - HTML
-         - No errors were returned when passing through the official W3C validator
+    - HTML
+        - No errors were returned when passing through the official W3C validator
 
-       ![html w3c validator](https://user-images.githubusercontent.com/60697190/153942232-0a6feb15-762e-4d1c-a8be-06d739bedc88.png)
+    ![html w3c validator](https://user-images.githubusercontent.com/60697190/153942232-0a6feb15-762e-4d1c-a8be-06d739bedc88.png)
 
-       - CSS
-          - No errors were returned when passing through the official (Jigsaw) validator
+    - CSS
+        - No errors were returned when passing through the official (Jigsaw) validator
 
-       ![w3c css validator](https://user-images.githubusercontent.com/60697190/153942678-3650db23-3fa6-4be8-abd3-e00bfa85ce96.png)
+    ![w3c css validator](https://user-images.githubusercontent.com/60697190/153942678-3650db23-3fa6-4be8-abd3-e00bfa85ce96.png)
+
+    - Acessibility
+        - I confirmed that the colours are easy to read and accessible by running it through lighthouse in devtools
+        
+    ![lighthouse](https://user-images.githubusercontent.com/60697190/153944588-e50afde3-a91d-4f5f-a69f-6d3640ba1a57.png)
+
+
+
+       
+
+       
+
+       
+
+       
             
-       - Acessibility
-          - I confirmed that the colours are easy to read and accessible by running it through lighthouse in devtools
+       
 
-       ![lighthouse](https://user-images.githubusercontent.com/60697190/153944588-e50afde3-a91d-4f5f-a69f-6d3640ba1a57.png)
+       
 
 
 
