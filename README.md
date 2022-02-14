@@ -68,13 +68,6 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
     # Testing
 
-    - Links to social media
-    - Hover feature with a bigger size that matches navigation bar
-    - Directs user to the respective site on a new page
-
-
-
-
     - This project is responsive looks good, and functions on all standard screens sizes using the devtools device toolbar.        
     - I tested that this page works in different browsers: Chrome, Firefox, Safari.
     - The navigation, header, services, about us, sign up and contact text are all readable and easy to understand.
