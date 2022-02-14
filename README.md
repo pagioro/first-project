@@ -33,3 +33,9 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
   - The user with this information may decide to contact us.
 
   ![repair section](https://user-images.githubusercontent.com/60697190/153884948-99b6bf20-71bb-4571-b3c0-80b1e06bdf1a.png)
+
+  - __About Us__
+
+  - Tell a little story of how the company started.
+
+  ![about us](https://user-images.githubusercontent.com/60697190/153885683-085fed14-dd75-495a-9cfb-2bf1f0dcc72e.png)
