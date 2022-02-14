@@ -10,6 +10,6 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 ## Navigation Bar
 
-*The navigation bar is located above the image with the logo company.
+- The navigation bar is located above the image with the logo company.
 
-*Has a hover function that changes the size of the text menu.
+- Has a hover function that changes the size of the text menu.
