@@ -97,8 +97,18 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
     - Acessibility
         - I confirmed that the colours are easy to read and accessible by running it through lighthouse in devtools
-        
+
     ![lighthouse](https://user-images.githubusercontent.com/60697190/153944588-e50afde3-a91d-4f5f-a69f-6d3640ba1a57.png)
+
+    # Deployment
+
+    - The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+    - In the GitHub repository, navigate to the Settings tab In the pages section, go to select branch drop-down menu, select Main Once the Main branch has been selected, a link to the site is provided
+
+    - The live link can be found here - https://pagioro.github.io/first-project/
+
+
 
 
 
