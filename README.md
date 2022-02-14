@@ -48,4 +48,12 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
     - In the future, a text box will be, added so that people can send messages directly to the site, and we will be able to use their emails to capture leads.
 
-    
+- __Contact Section__
+
+    - The contact has two sections, one with the information about the opening times, contact e-mail and address.
+
+    ![contact](https://user-images.githubusercontent.com/60697190/153899303-c785f8d0-47f2-4275-b500-322e5e80023e.png)
+
+    - In this section there is a map with the precise location of the store
+
+    ![map](https://user-images.githubusercontent.com/60697190/153899548-000ed287-7eaf-4b45-93af-b63736210aac.png)
