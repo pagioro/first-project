@@ -7,3 +7,9 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 ![Responsive web site Mobile Phone Zone screenshot](https://user-images.githubusercontent.com/60697190/153785760-82459b18-ee81-4dd4-ac98-8d333a7d788f.jpg)
 
 # Features
+
+## Navigation Bar
+
+*The navigation bar is located above the image with the logo company.
+
+*Has a hover function that changes the size of the text menu.
