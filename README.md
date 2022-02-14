@@ -60,12 +60,18 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
     - __Footer__
 
-    - Links to social media
-    - Hover feature with a bigger size that matches navigation bar
-    - Directs user to the respective site on a new page
+        - Links to social media
+        - Hover feature with a bigger size that matches navigation bar
+        - Directs user to the respective site on a new page
 
     ![footer](https://user-images.githubusercontent.com/60697190/153901739-83eae002-0441-4255-b20b-7347b4a054ba.png)
 
     # Testing
+
+        - This project is responsive looks good, and functions on all standard screens sizes using the devtools device toolbar.
+        - I tested that this page works in different browsers: Chrome, Firefox, Safari.
+        - The navigation, header, services, about us, sign up and contact text are all readable and easy to understand.
+        - I have confirmed that the form works with require entries in every field ans submit buttom works.
+    
 
     
