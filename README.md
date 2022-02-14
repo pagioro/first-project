@@ -20,22 +20,32 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 - __The landing page image__
 
-  - The landing page includes a person holding a mobile device and a laptop, while below, there is another image superimposed with the company name and address. 
+    - The landing page includes a person holding a mobile device and a laptop, while below, there is another image superimposed with the company name and address. 
 
-  - This section introduces the user to the phone shop.
+    - This section introduces the user to the phone shop.
 
 ![landing page](https://user-images.githubusercontent.com/60697190/153881622-f1dd8d4e-71f0-474f-8ff0-184678cd28a7.png)
 
 - __Repair Section__
 
-  - In the repair section, the user will be able to see all the services that the store has.
+    - In the repair section, the user will be able to see all the services that the store has.
 
-  - The user with this information may decide to contact us.
+    - The user with this information may decide to contact us.
 
   ![repair section](https://user-images.githubusercontent.com/60697190/153884948-99b6bf20-71bb-4571-b3c0-80b1e06bdf1a.png)
 
   - __About Us__
 
-  - Tell a little story of how the company started.
+     - Tell a little story of how the company started.
 
   ![about us](https://user-images.githubusercontent.com/60697190/153885683-085fed14-dd75-495a-9cfb-2bf1f0dcc72e.png)
+
+  - __Sign up Section__
+
+    - This page will allow the user to subscribe to the store to receive future promotions. The user will be asked to submit their full name and email address.
+
+    ![sign up section](https://user-images.githubusercontent.com/60697190/153896002-6dbf5133-ed0f-4f59-8a6b-16feba726b2e.png)
+
+    - In the future, a text box will be, added so that people can send messages directly to the site, and we will be able to use their emails to capture leads.
+
+    
