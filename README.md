@@ -20,3 +20,8 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 - __The landing page image__
 
+  - The landing page includes a person holding a mobile device and a laptop, while below, there is another image superimposed with the company name and address. 
+
+  - This section introduces the user to the phone shop.
+
+![landing page](https://user-images.githubusercontent.com/60697190/153881622-f1dd8d4e-71f0-474f-8ff0-184678cd28a7.png)
