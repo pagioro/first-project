@@ -57,3 +57,15 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
     - In this section there is a map with the precise location of the store
 
     ![map](https://user-images.githubusercontent.com/60697190/153899548-000ed287-7eaf-4b45-93af-b63736210aac.png)
+
+    - __Footer__
+
+    - Links to social media
+    - Hover feature with a bigger size that matches navigation bar
+    - Directs user to the respective site on a new page
+
+    ![footer](https://user-images.githubusercontent.com/60697190/153901739-83eae002-0441-4255-b20b-7347b4a054ba.png)
+
+    # Testing
+
+    
