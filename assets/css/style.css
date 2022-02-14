@@ -65,7 +65,7 @@ h1 > span {
 /* main image */
 
 #main-image {
-    height: 650px;
+    height: 520px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -73,7 +73,7 @@ h1 > span {
 
 
 #girl-image {
-    height: 650px;
+    height: 520px;
     width: 100%;
     background: url(../images/girl-phone.webp) no-repeat center center;
     background-size: cover;
