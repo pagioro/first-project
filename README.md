@@ -108,6 +108,22 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
     - The live link can be found here - https://pagioro.github.io/first-project/
 
+    # Credits
+
+    ### content
+
+    - Font was sourced from Google Fonts https://fonts.google.com/
+
+    - Icons were sourced from Font Awesome https://fontawesome.com/
+
+    - I used cloudconvert and ezgif to minimize the image file sizes https://cloudconvert.com/jpg-to-webp and https://ezgif.com/optiwebp
+
+    ### media
+
+    - All pictures were taken from the open source site Pexels https://www.pexels.com/
+
+
+
 
 
 
