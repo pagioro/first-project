@@ -359,6 +359,7 @@ li > a:hover {
         justify-content: unset;  
         padding-left: 10%;  
     }
+    
 }
 
 
@@ -375,7 +376,12 @@ li > a:hover {
         position: absolute;
         bottom: 30px;
         left: 0;
-    }        
+    }      
+    
+    .about {
+        text-align: left;
+    }
+    
 }
 
 /* For medium screens size from 320px wide and down */
