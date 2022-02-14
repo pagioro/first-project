@@ -72,6 +72,24 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
     - I tested that this page works in different browsers: Chrome, Firefox, Safari.
     - The navigation, header, services, about us, sign up and contact text are all readable and easy to understand.
     - I have confirmed that the form works with require entries in every field ans submit buttom works.
+
+    # Unfixed Bugs
+
+    ## Navigation bar
+
+    - The navigation bar for mobile devices is not perfect. In the future, after acquiring better abilities, I will make these changes.
+
+    # Fixed Bugs
+
+    - With the use of float, the site was broken and, after using flexbox, the website got better.
+
+
+
+
+
+
+
+    
     
 
     
