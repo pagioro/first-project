@@ -71,7 +71,7 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
     - This project is responsive looks good, and functions on all standard screens sizes using the devtools device toolbar.        
     - I tested that this page works in different browsers: Chrome, Firefox, Safari.
     - The navigation, header, services, about us, sign up and contact text are all readable and easy to understand.
-    - I have confirmed that the form works with require entries in every field ans submit buttom works.
+    - I have confirmed that the form works with require entries in every field and submit buttom works.
 
     # Unfixed Bugs
 
@@ -111,6 +111,8 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
     # Credits
 
     ### content
+
+    - When making my project, I was inspired by the Code Institute love running project.
 
     - Font was sourced from Google Fonts https://fonts.google.com/
 
