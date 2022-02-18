@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
 
 * { 
    margin: 0;
@@ -93,15 +93,11 @@ h1 > span {
     text-transform: uppercase;
     letter-spacing: 3px;
     border-radius: 5px;
-
     width: 300px;
     height: 100px;
-
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(60, 60, 60, 0.9);
-
     position: absolute;
     bottom: 30px;
     right: 100px;    
@@ -112,7 +108,7 @@ h1 > span {
 #container > #services {
     text-transform: uppercase;
     text-align: center;
-    margin: 50px 50px;
+    margin: 50px;
 }
 
 #flex-container-service {
@@ -132,15 +128,14 @@ h1 > span {
 }
 
 .flex-text > h2 {
-    margin: 10px 0 10px 0;  
+    margin: 10px 0;  
 }
 
 .flex-text > p {
     margin-bottom: 50px;  
 }
 
-.flex-image-all {
-    width: 80%;
+.flex-image-all {    
     height: 300px;
     border-radius: 5px;
     margin: 0 auto;
@@ -223,7 +218,7 @@ h1 > span {
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 15px 32px;
     text-align: center;
     font-size: 100%;
     background-color: #f16c6b;
@@ -258,7 +253,7 @@ h1 > span {
 }
 
 th, td {
-    border-bottom: 1px solid black; 
+    border-bottom: 1px solid #000; 
 }
 
 /* Map */
@@ -333,7 +328,7 @@ li > a:hover {
     }   
     
     .box-contact {
-        padding: 40px;
+        padding: 20px;
     }    
 }
 
@@ -374,7 +369,7 @@ li > a:hover {
 @media screen and (max-width: 480px) {
     
     #logo {
-        font-size: 160%;
+        font-size: 120%;
         margin-left: 20px;
     }    
 
@@ -386,28 +381,7 @@ li > a:hover {
     
     .about {
         text-align: left;
-    }
-    
-}
-
-/* For medium screens size from 320px wide and down */
-
-@media screen and (max-width: 320px) {    
-
-    #logo {
-        font-size: 120%;        
-    }           
+    }    
 }
 
 
-
-
-
-/* font-family: 'Lora', serif;
-font-family: 'Roboto Mono', monospace; */
-
-/* 
-section 1 = #F7ECDE
-section 2 = #E9DAC1
-section 3 = #54BAB9
-*/
