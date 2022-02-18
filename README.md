@@ -1,6 +1,8 @@
 # Mobile Phone Zone
 
-Mobile Phone Zone is a phone shop that provides repair services for mobile phones, tablets and laptops. It also offers the sale of mobile phones, tablets and accessories.
+Mobile Phone Zone is a store that provides repair and sale services for cell phones, tablets and laptops to people from the city of Bray who are looking for serious and quality professional service at an affordable price.
+
+The store also sells new and remanufactured cell phones, laptops and tablets with a high-quality standard.
 
 The site uses a one-page format, this makes it especially easy to navigate on mobile and desktop.
 
