@@ -8,6 +8,18 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
 ![Responsive web site Mobile Phone Zone screenshot](docs/screenshots/responsive.jpg)
 
+# Design Choices
+
+   - A minimalist design was chosen, for easy navigation.
+
+   - The colours and photos were chosen in pastel tones to pleasure the user's eyes.
+
+   - The chosen font is easy to read.
+
+   - Passed WCAG Contrast Checker with the highest score triple-A.
+
+   ![wcag triple-A score](docs/screenshots/wcag.png)
+
 # Features
 
 ### Existing Features
