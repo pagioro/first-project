@@ -82,9 +82,12 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
     # Testing
 
-    - This project is responsive looks good, and functions on all standard screens sizes using the devtools device toolbar.        
+    - This project is responsive looks good, and functions on all standard screens sizes using the devtools device toolbar.   
+
     - I tested that this page works in different browsers: Chrome, Firefox, Safari.
+
     - The navigation, header, services, about us, sign up and contact text are all readable and easy to understand.
+
     - I have confirmed that the form works with require entries in every field and submit buttom works.
 
     # Unfixed Bugs
@@ -95,7 +98,11 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
     # Fixed Bugs
 
-    - With the use of float, the site was broken and, after using flexbox, the website got better.
+    - Problem: The site was not responsive, and the images were not acting correctly after scaling the page.
+
+    - Cause: Using float caused the site to break.
+
+    - Resolution: After using flexbox, the website got much better. 
 
     ## Validator Testing
 
