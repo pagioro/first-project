@@ -133,7 +133,7 @@ The site uses a one-page format, this makes it especially easy to navigate on mo
 
     ### content
 
-    - When making my project, I was inspired by the Code Institute love running project.
+    - When making my project, I was inspired by the Code Institute love running project and Coders Coffeehouse.
 
     - Font was sourced from Google Fonts https://fonts.google.com/
 
